@@ -32,10 +32,8 @@ public class Task20 {
             kCos = kCos + 1;
         }
 
-        // Итоговое значение и сравнение
+        // Итог
         double fApprox = expSum * cosSum;
-
-        // Точное значение из стандартной библиотеки Java
         double fExact = Math.exp(tVal) * Math.cos(tVal);
         double error = Math.abs(fApprox - fExact);
 
